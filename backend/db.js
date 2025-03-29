@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://rohangorvadia:rohangorvadia@cluster0.fe754.mongodb.net/transaction")
+mongoose.connect("mongodb+srv://rohangorvadia:*************@cluster0.fe754.mongodb.net/transaction")
 
 const userSchema = mongoose.Schema({
     userName: {
